@@ -479,43 +479,6 @@ footer p {
   }
 
 
-
-html service$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-    <div class="servicecarousel">
-    <div class="carousel">
-        <input type="radio" id="slide1" name="carousel-radio" checked>
-        <input type="radio" id="slide2" name="carousel-radio">
-        <input type="radio" id="slide3" name="carousel-radio">
-
-        <div class="carousel-slides">
-            <div class="slide">
-                <img src="/CSS/photos/homephotos/carousel1.png" alt="HTML & CSS">
-            </div>
-            <div class="slide">
-                <img src="/CSS/photos/homephotos/carousel2.png" alt="WEBDESIGNING">
-            </div>
-            <div class="slide">
-                <img src="/CSS/photos/homephotos/carousel3.png" alt="WORDPRESS">
-            </div>
-        </div>
-        <div class="carousel-nav">
-            <label for="slide1"></label>
-            <label for="slide2"></label>
-            <label for="slide3"></label>
-        </div>
-    </div>
-
-CSS $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-
-.carousel {
-    position: relative;
-    width: 100%;
-    max-width: 50%;
-    margin: 0 auto;
-    overflow: hidden;
-    z-index: 0;
-}
-
 .carousel input[type="radio"] {
     display: none;
 }
